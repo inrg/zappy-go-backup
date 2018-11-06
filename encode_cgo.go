@@ -8,7 +8,7 @@
 
 // +build cgo,!purego
 
-package zappy
+package zappy // import "modernc.org/zappy"
 
 /*
 
@@ -108,7 +108,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/cznic/internal/buffer"
+	"modernc.org/internal/buffer"
 )
 
 func puregoEncode() bool { return false }

@@ -225,7 +225,7 @@ Build tags
 If a constraint 'purego' appears in the build constraints [5] then a pure Go
 version is built regardless of the $CGO_ENABLED value.
 
-	$ touch zappy.go ; go install -tags purego github.com/cznic/zappy # for example
+	$ touch zappy.go ; go install -tags purego modernc.org/zappy # for example
 
 Information sources
 
@@ -237,4 +237,4 @@ Information sources
  [4]: http://golang.org/pkg/encoding/binary/
  [5]: http://golang.org/pkg/go/build/#hdr-Build_Constraints
 */
-package zappy
+package zappy // import "modernc.org/zappy"

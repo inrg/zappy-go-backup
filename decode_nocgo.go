@@ -8,12 +8,12 @@
 
 // +build !cgo purego
 
-package zappy
+package zappy // import "modernc.org/zappy"
 
 import (
 	"encoding/binary"
 
-	"github.com/cznic/internal/buffer"
+	"modernc.org/internal/buffer"
 )
 
 func puregoDecode() bool { return true }

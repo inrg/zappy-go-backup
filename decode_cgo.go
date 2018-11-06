@@ -8,10 +8,10 @@
 
 // +build cgo,!purego
 
-package zappy
+package zappy // import "modernc.org/zappy"
 
 import (
-	"github.com/cznic/internal/buffer"
+	"modernc.org/internal/buffer"
 )
 
 /*

@@ -6,7 +6,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the SNAPPY-GO-LICENSE file.
 
-package zappy
+package zappy // import "modernc.org/zappy"
 
 import (
 	"encoding/binary"

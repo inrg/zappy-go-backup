@@ -6,7 +6,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the SNAPPY-GO-LICENSE file.
 
-package zappy
+package zappy // import "modernc.org/zappy"
 
 import (
 	"bytes"
@@ -374,7 +374,7 @@ func TestPureGo(t *testing.T) {
 	}
 }
 
-func TestBug5(t *testing.T) { // https://github.com/cznic/zappy/issues/5
+func TestBug5(t *testing.T) { // https://gitlab.com/cznic/zappy/issues/5
 	src, err := ioutil.ReadFile("testdata/zappy_error_src_dump_purego.bin")
 	if err != nil {
 		t.Fatal(err)
